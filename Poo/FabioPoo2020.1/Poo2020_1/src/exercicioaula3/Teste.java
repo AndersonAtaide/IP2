@@ -10,7 +10,7 @@ public class Teste {
 		Livro livro1 = new Livro("A saga do programador", autor1, 2022, 1);
 		Livro livro2 = new Livro("A saga do mestre", autor2, 2024, 1);
 				
-		System.out.println(autor1);
+		System.out.println("Autor: " + autor1.getEmail());
 		System.out.println(autor2);
 		
 		System.out.println(livro1);
