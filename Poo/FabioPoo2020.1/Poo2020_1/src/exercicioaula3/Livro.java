@@ -36,5 +36,11 @@ public class Livro {
 	public void setQtyEmEstoque(int qtyEmEstoque) {
 		this.qtyEmEstoque = qtyEmEstoque;
 	}
+
+	@Override
+	public String toString() {
+		return "Livro [nome do Livro=" + nomeLivro + ", " + autor + ", Preço=" + preco + ", Quantidade Em Estoque= "
+				+ qtyEmEstoque + "]";
+	}
 	
 }
