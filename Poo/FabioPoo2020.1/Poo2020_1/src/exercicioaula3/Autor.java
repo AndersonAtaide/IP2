@@ -27,6 +27,12 @@ public class Autor {
 		return genero;
 	}
 
+	@Override
+	public String toString() {
+		return "Nome do Autor=" + nomeAutor + ", e-mail=" + email + ", genero=" + genero + "";
+	}
+	
+	
 	
 	
 }
